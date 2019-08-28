@@ -8,7 +8,7 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT characters.species, SUM(characters.species) AS greatest_number FROM characters GROUP BY species ORDER BY greatest_number DESC;"
+  "SELECT characters.species, SUM(characters.species) AS greatest_number FROM characters GROUP BY species ORDER BY greatest_number;"
 end
 
 def select_name_and_series_subgenres_of_authors
